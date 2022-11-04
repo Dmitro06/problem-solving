@@ -1,0 +1,26 @@
+button{
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+div{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border: 5px dotted black;   
+}
+
+.active_block2{
+    display: none;
+}
+.changed_block{
+    transition: ease-in 5s; 
+    background-color: aqua; 
+}
+
+.intro{
+    background-color: green;
+    transform: rotate(90deg);
+}
